@@ -1,0 +1,40 @@
+.item-listMWK {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:100px;
+    position:absolute;
+    top:200px;
+    left: 260px;
+    
+  }
+ 
+  .item-cardMWK {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 4px;
+    width: 226px;
+    height: 360px;
+  }
+  
+  .item-cardMWK img {
+    width: 226px;
+    height: 295px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+ 
+  
+  .item-cardMWK h3 {
+    position:relative;
+    left: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .item-cardMWK p {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #ff0000;
+  }
+  

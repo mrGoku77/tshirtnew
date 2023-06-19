@@ -1,0 +1,17 @@
+.contactpage{
+    position: relative;
+    width:1920px;
+    height:1080px;
+    top:89px;
+    background-color: #ffffff;
+    
+    }
+  
+.map{
+    position: absolute;
+    width: 790px;
+    height: 682px;
+    left: 752px;
+    top: 69px;
+    border-radius:10px ;
+}

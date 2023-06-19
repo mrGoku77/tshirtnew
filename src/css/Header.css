@@ -1,0 +1,44 @@
+
+.header {
+  position: absolute;
+  width:100%;
+  height: 80px;
+  left: 0px;
+  top: 95px;
+  background-color: antiquewhite;
+}
+
+/* sticky nav bar */
+.sticky {
+  position: fixed;
+}
+
+
+.navlinks {
+  height: 4.7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+
+.searchBar{
+position: absolute;
+width: 1390px;
+height: 56px;
+left: 249px;
+top: 19px;
+background: rgba(0, 0, 0, 0.32);
+border-radius: 10px;
+font-size: 24px;
+}
+
+.searchB{
+  position: absolute;
+  width: 100%;
+  height: 95px;
+  top: -95px;
+  background-color: rgb(222, 255, 238);
+
+}
+
