@@ -4,7 +4,12 @@ export default function Offers() {
      <> 
      <div className='offerspage'>
 
-    
+     <section class='FlexContainer'>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
      </div>
 
      </>

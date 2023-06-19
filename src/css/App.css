@@ -5,8 +5,25 @@
   top:89px;
 }
 
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  background-color: #2f1d58;
+  height: 80vh;
+  overflow: auto;
+  flex-direction: column;
+}
 
-
+.FlexContainer div {
+  width: 591px;
+  height: 349px;
+  margin: 6px;
+  background-color: lightblue;
+}
 
 
 

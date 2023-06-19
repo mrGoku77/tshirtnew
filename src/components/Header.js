@@ -8,7 +8,7 @@ export default function Header() {
         
         <div className="searchB">
 
-             <input className="searchBar"  type="text"/> 
+             <input className="searchBar"  type="text" placeholder="Search"/> 
 
         </div>
 
