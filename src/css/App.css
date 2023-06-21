@@ -32,4 +32,16 @@
   padding: 0px 0px 50px 0px ;
 }
 
+.womensnavimage{
+  width: 500px;
+  height: 300px;
+  margin: 6px;
+  background-color: lightblue;
+}
 
+.kidsnavimage{
+  width: 591px;
+  height: 349px;
+  margin: 6px;
+  background-color: lightblue;
+}

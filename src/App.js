@@ -5,6 +5,8 @@ import './css/App.css';
 import './css/Men.css';
 import './css/Women.css';
 import './css/Offers.css';
+import './css/Login.css'
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Homes from './pages/Homes'
@@ -14,6 +16,7 @@ import Mens from './pages/Mens'
 import Women from './pages/Women'
 import Kids from './pages/Kids'
 import Contacts from './pages/Contacts'
+import Login from './pages/Login'
 
 export default function App() {
   return (
@@ -33,7 +36,7 @@ export default function App() {
           <Route path= "/women" element={<Women/>} />
           <Route path= "/kids" element={<Kids/>} />
           <Route path= "/contacts" element={<Contacts/>} />
-        
+         <Route path= "/login" element={<Login/>} />
          
           
         </Routes> 
