@@ -1,7 +1,15 @@
-
+import React from "react"
 import {NavLink} from "react-router-dom"
+import im8 from '../images/tdesigns.png'
+import { useNavigate } from "react-router-dom"
+
 
 export default function Header() {
+  const navigate = useNavigate() 
+  const Login =() => {
+    navigate('/login')
+  }
+
     return(
       <> 
         <header className="header sticky">
@@ -9,10 +17,12 @@ export default function Header() {
         <div className="searchB">
 
              <input className="searchBar"  type="text" placeholder="Search"/> 
-
+             <img className='tdesignimage' src= {im8} alt=''  onClick={Login}/>
         </div>
 
-
+        
+          
+          
 
         <div className="navlinks">
           
