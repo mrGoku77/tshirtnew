@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ProductListMWC from '../components/ProductListMWK';
 
 const showitems = [
@@ -51,7 +53,10 @@ const showitems = [
       },
     // Add more product objects as needed
   ];
-export default function Mens() {
+
+
+
+  export default function Mens() {
     return(
     
 

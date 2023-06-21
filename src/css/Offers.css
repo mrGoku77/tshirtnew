@@ -7,7 +7,7 @@
   
   .FlexContainer {
     display: flex;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: baseline;
     align-content: center;
@@ -15,7 +15,7 @@
     background-color: #2f1d58;
     height: 80vh;
     overflow: auto;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .FlexContainer div {
