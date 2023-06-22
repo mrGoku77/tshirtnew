@@ -14,7 +14,16 @@ export default function Contacts() {
 
       </iframe>
 
-    
+     <div className='timetable'>
+         <div className='info1'>
+            <p>mon 10am–9pm</p>
+            <p>tue 10am–9pm</p>
+            <p>wed 10am–9pm</p>
+            <p>thur 10am–9pm</p>
+            <p>fri 10am–9pm</p>
+            <p><b>Address: </b> Hounslow high Street,UB7TFG</p>
+         </div>
+     </div>
       
 
 

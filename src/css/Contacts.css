@@ -9,9 +9,26 @@
   
 .map{
     position: absolute;
-    width: 790px;
-    height: 682px;
-    left: 752px;
+    width: 1200px;
+    height: 400px;
+    left:130px;
     top: 150px;
     border-radius:10px ;
+}
+
+.timetable{
+    position:absolute;
+    height:400px;
+    width:400px;
+    background-color: antiquewhite;
+    left:85.5rem;
+    border-radius: 10px;
+    top: 150px;
+}
+
+.info1{
+    font-size: 20px;
+    text-align:center;
+    
+    
 }
