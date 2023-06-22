@@ -12,7 +12,7 @@ const showitems = [
     {
       id: 2,
       name: '£44',
-      price: 'This is the price of Product 2.',
+      price: '£24',
       image: 'https://i8.amplience.net/t/jpl/jd_product_list?plu=jd_661601_plc&qlt=92&w=363&h=463&v=1&fmt=auto',
     },
     {
