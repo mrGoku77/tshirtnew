@@ -3,7 +3,9 @@ import React from 'react'
 function Login() {
   return (
     <div className='login1'>Login
-
+          <div className='login2'>
+             <p> LogIn</p>
+          </div>
         <form class="form">
         <span class="input-span">
         <label for="email" class="label">Email</label>

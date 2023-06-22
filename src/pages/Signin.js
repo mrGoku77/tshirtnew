@@ -4,7 +4,9 @@ function Signin() {
   return (
     <div>
         <form class="form">
-
+        <div className='login3'>
+             <p> SignIn</p>
+          </div>
             <span class="input-span">
                 <label for="text" class="label">FullName</label>
                 <input type="email" name="email" id="email"/>
